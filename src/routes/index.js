@@ -80,7 +80,6 @@ router.get('/administrador', verifyToken, (req, res) =>{
     res.send(req.userId);
 })
 
-
 module.exports = router;
 
 function verifyToken(req, res, next){
